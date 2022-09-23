@@ -30,10 +30,12 @@ class Movie {
 }
 
 
-$firstMovie = new Movie ("2001: a space odissey","Science fiction","1968");
+$firstMovie = new Movie ("2001: a space odissey","Science fiction");
+$firstMovie->setYear(1968);
 
-$secondMovie = new Movie ("The Hitchhiker's guide to the galaxy","Science fiction","2005");
+$secondMovie = new Movie ("The Hitchhiker's guide to the galaxy","Science fiction");
+$secondMovie->setYear(2005);
 
-$thirdMovie = new Movie ("The Hangover","Commedy","2009");
-
+$thirdMovie = new Movie ("The Hangover","Commedy");
+$thirdMovie->setYear(2009);
 var_dump($iMovie);
